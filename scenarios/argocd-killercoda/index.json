@@ -1,17 +1,11 @@
 {
-  "title": "Argo CD Lab",
-  "description": "Install Argo CD using Helm on Kubernetes.",
-  "difficulty": "beginner",
-  "time": "15 minutes",
+  "title": "Argocd Killercoda",
+  "description": "Practice Argo CD installation with Helm on Kubernetes.",
   "details": {
     "steps": [
       {
-        "title": "Install Argo CD",
+        "title": "Introduction",
         "text": "intro.md"
-      },
-      {
-        "title": "Verify Deployment",
-        "text": "finish.md"
       }
     ],
     "intro": {
@@ -22,11 +16,13 @@
     }
   },
   "environment": {
-    "showide": true,
-    "showdashboard": false,
-    "uilayout": "terminal-terminal"
+    "showdashboard": true,
+    "dashboards": [],
+    "uilayout": "terminal",
+    "uimessage": "",
+    "hideintro": false
   },
   "backend": {
-    "imageid": "kubernetes-k3s"
+    "imageid": "kubernetes-k3s-1node"   ← ✅ THIS IS MISSING or wrong in your file
   }
 }
