@@ -23,7 +23,7 @@ helm template argo-cd argo/argo-cd \
 ```bash
 kubectl create namespace argocd
 kubectl apply -f argo-template.yaml
-kubectl apply -f assets/argocd-server-nodeport.yaml
+
 ```
 
 > Note: CRDs must be installed separately if not already present.
