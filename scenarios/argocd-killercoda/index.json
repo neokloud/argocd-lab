@@ -23,6 +23,6 @@
     "hideintro": false
   },
   "backend": {
-    "imageid": "kubernetes-k3s-1node"   ← ✅ THIS IS MISSING or wrong in your file
+    "imageid": "kubernetes-k3s-1node"
   }
 }
