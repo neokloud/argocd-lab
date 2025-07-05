@@ -30,4 +30,4 @@ kubectl apply -f assets/argocd-server-nodeport.yaml
 ### Step 4: Verify Argo CD Pods
 ```bash
 kubectl get pods -n argocd
-```bash
+```
