@@ -26,3 +26,9 @@
     "imageid": "kubernetes-k3s-1node"
   }
 }
+{
+  "title": "Argocd Killercoda",
+  "description": "Practice Argo CD installation with Helm on Kubernetes.",
+  "icon": "assets/logo neokloud.png", 
+  ...
+}
