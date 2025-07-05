@@ -1,18 +1,32 @@
 {
-  "title": "Install Argo CD with Helm (v8.0.17)",
-  "description": "Install Argo CD in Kubernetes using Helm without installing CRDs.",
+  "title": "Argo CD Lab",
+  "description": "Install Argo CD using Helm on Kubernetes.",
   "difficulty": "beginner",
-  "time": "10 minutes",
+  "time": "15 minutes",
   "details": {
-    "intro": "intro.md",
-    "finish": "finish.md"
+    "steps": [
+      {
+        "title": "Install Argo CD",
+        "text": "intro.md"
+      },
+      {
+        "title": "Verify Deployment",
+        "text": "finish.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "environment": {
-    "showide": false,
-    "uilayout": "terminal",
-    "uimessage": ""
+    "showide": true,
+    "showdashboard": false,
+    "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "kubernetes-k3s"
   }
 }
