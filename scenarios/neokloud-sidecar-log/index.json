@@ -15,7 +15,9 @@
     },
     "assets": {
       "host01": [
-        "deploy/initial-deployment.yaml"
+        {
+          "file": "deploy/initial-deployment.yaml"
+        }
       ]
     }
   },
