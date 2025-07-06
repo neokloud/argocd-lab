@@ -29,6 +29,6 @@
     "uidefault": "terminal"
   },
   "backend": {
-    "imageid": "kubernetes-cka"
+    "imageid": "kubernetes"
   }
 }
