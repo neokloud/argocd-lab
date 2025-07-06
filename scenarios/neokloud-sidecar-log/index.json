@@ -8,7 +8,9 @@
       "text": "intro.md"
     },
     "steps": [
-      { "text": "intro.md" }
+      {
+        "text": "intro.md"
+      }
     ],
     "finish": {
       "text": "finish.md"
@@ -16,7 +18,7 @@
     "assets": {
       "host01": [
         {
-          "file": "deploy/initial-deployment.yaml"
+          "file": "deploy/initial-deployment.yaml",
           "target": "/root/initial-deployment.yaml"
         }
       ]
@@ -27,6 +29,6 @@
     "uidefault": "terminal"
   },
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "kubernetes-cka"
   }
 }
