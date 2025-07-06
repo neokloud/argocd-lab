@@ -17,6 +17,7 @@
       "host01": [
         {
           "file": "deploy/initial-deployment.yaml"
+          "target": "/root/initial-deployment.yaml"
         }
       ]
     }

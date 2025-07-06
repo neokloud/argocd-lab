@@ -1,2 +1,2 @@
 #!/bin/bash
-kubectl apply -f ~/deploy/initial-deployment.yaml
+kubectl apply -f /root/initial-deployment.yaml
