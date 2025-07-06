@@ -1,3 +1,3 @@
-echo "🟡 Starting setup..."
-kubectl apply -f /root/assets/deploy/initial-deployment.yaml
-echo "✅ Deployment applied."
+#!/bin/bash
+echo "📦 Applying initial deployment..."
+kubectl apply -f /root/initial-deployment.yaml
