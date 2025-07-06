@@ -1,3 +1,3 @@
-#!/bin/bash
-echo "Applying initial deployment YAML..."
+echo "🟡 Starting setup..."
 kubectl apply -f /root/assets/deploy/initial-deployment.yaml
+echo "✅ Deployment applied."
